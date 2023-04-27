@@ -25,12 +25,14 @@ You can play with the [final demo](https://demo.winefactory.marigold.dev/).
 
 ![nftfactory.png](/images/nftfactory.png)
 
-Plan of the training course :
-
+{% callout type="note" %} 
+Here we present Part 1 of 4 of a training course by [Marigold](https://www.marigold.dev/). You can find all 4 parts on github.
 - [NFT 1](https://github.com/marigold-dev/training-nft-1): use FA2 NFT template to understand the basics
 - [NFT 2](https://github.com/marigold-dev/training-nft-2): finish FA2 nft marketplace to introduce sales
 - [NFT 3](https://github.com/marigold-dev/training-nft-3): use FA2 single asset template to build another kind of marketplace
 - [NFT 4](https://github.com/marigold-dev/training-nft-4): use FA2 multi asset template to build last complex kind of marketplace
+{% /callout %} 
+
 
 | Token template | # of token_type | # of item per token_type |
 | -------------- | --------------- | ------------------------ |
@@ -38,7 +40,6 @@ Plan of the training course :
 | single asset   | 0..1            | 1..n                     |
 | multi asset    | 0..n            | 1..n                     |
 
-<img src="https://i.imgflip.com/4dpglt.png" style="width: 200px;margin:2em"/>
 
 > Note : because we are in web3, buy or sell features are a real payment system using onchain XTZ token as money. This differs from traditional web2 applications where you have to integrate payment system and so, pay extra fees.
 
